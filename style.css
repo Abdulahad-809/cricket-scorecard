@@ -61,6 +61,7 @@ body {
 }
 .scores:hover{
     opacity: 0.9;
+    transition:1sec;
 }
 .scores button{
     
@@ -80,6 +81,8 @@ body {
 .scores button:hover{
     background-color: blue;
     opacity:0.3;
+    transition:1sec;
+    
 }
 .balls{
     text-shadow: 2px 2px 2px black;
@@ -91,10 +94,14 @@ body {
 }
 .balls:hover{
     opacity: 0.7;
+    transition:1sec;
+    
 }
 .out:hover{
     opacity: 0.4;
     border: 2px solid #960909;
+    transition:1sec;
+    
 }
 .balls button{
     width: 100%;
@@ -129,6 +136,8 @@ body {
     background-color: #b32222;
     
 .out button:hover{
+    transition:1sec;
+    
     background-color: #960909;
     opacity: 0.6;
     
