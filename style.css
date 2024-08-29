@@ -1,0 +1,139 @@
+body {
+    margin: 20px;
+    padding: 0;
+    
+    background-image: url("https://e0.pxfuel.com/wallpapers/388/31/desktop-wallpaper-cricket-background-template-ppt-premium-2020-cricket-stadium.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+    
+     
+}
+
+.screen{
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px;
+    padding: 20px;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+    font-size: 1rem;
+    flex-direction: column;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    color: rgb(99, 138, 7);
+    overflow: auto;
+    flex-wrap: wrap;
+    height: 130px;
+    margin-top: 30px;
+    
+    background-color: #eb3f0b;
+    border: 0.8rem solid rgb(38, 66, 192);
+    opacity: 0.7;
+    
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.scores{
+    color: rgb(167, 184, 183);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(0, 128, 107);
+    height: 60px;
+    padding: 0.1rem 0.4rem;
+    border-radius: 1rem;
+    display: flex;
+    width:100vh;
+    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 2px 2px 2px black;
+    
+
+    
+}
+.scores:hover{
+    opacity: 0.9;
+}
+.scores button{
+    
+    margin-right: 0.3rem;
+    margin-bottom: 0.7rem;
+    border-radius: 0.8rem;
+    background-color: rgb(43, 214, 226);
+    padding: 0.2rem 0.6rem;
+    border: none;
+    margin-right: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+   
+}
+.scores button:hover{
+    background-color: blue;
+    opacity:0.3;
+}
+.balls{
+    text-shadow: 2px 2px 2px black;
+   margin-left:0px;
+   width: 100vh;
+   margin-bottom: 10px;
+   
+    
+}
+.balls:hover{
+    opacity: 0.7;
+}
+.out:hover{
+    opacity: 0.4;
+    border: 2px solid #960909;
+}
+.balls button{
+    width: 100%;
+    border: none;
+    color: #960909;
+    text-shadow: 1.5px 1.2px 1.5px black;
+    
+    
+    height: 60px;
+    border-radius: 0.8rem;
+    background-color: rgb(54, 166, 218);
+
+}
+.out{
+    margin-left:0px;
+    width: 100vh;
+    margin-bottom: 10px;
+    
+}
+.out h2{
+    text-shadow: 1.5px 1.5px 1.5px black;
+    color: rgb(0, 204, 255);
+}
+
+
+.out button{
+    width: 100%;
+    border: none;
+    height: 60px;
+    border-radius: 0.8rem;
+   
+    background-color: #b32222;
+    
+.out button:hover{
+    background-color: #960909;
+    opacity: 0.6;
+    
+}
+.balls button:hover{
+    background-color :green;
+}
+
